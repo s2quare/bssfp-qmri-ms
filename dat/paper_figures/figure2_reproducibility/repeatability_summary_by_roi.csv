@@ -1,0 +1,55 @@
+summary_scope,session_type,roi,metric,n_pairs,bias_native,sd_native,loa_lower_native,loa_upper_native,bias_plot_units,sd_plot_units,loa_lower_plot_units,loa_upper_plot_units,"ICC(A,1)"
+by_roi,repeat,CC,R1,3,-0.03,0.04,-0.1,0.03,-1.92,1.88,-5.6,1.76,0.87
+by_roi,repeat,CC,R2,3,-0.59,0.4,-1.39,0.2,-2.82,1.88,-6.5,0.86,0.78
+by_roi,repeat,CC,AI,3,-0.0,0.0,-0.01,0.01,-0.13,0.35,-0.81,0.55,0.9
+by_roi,repeat,Cerebellar WM,R1,3,0.02,0.02,-0.01,0.05,1.06,1.03,-0.97,3.08,0.9
+by_roi,repeat,Cerebellar WM,R2,3,0.31,0.01,0.3,0.32,1.59,0.02,1.55,1.64,0.76
+by_roi,repeat,Cerebellar WM,AI,3,-0.0,0.01,-0.02,0.01,-0.31,0.88,-2.04,1.43,0.56
+by_roi,repeat,Frontal WM,R1,3,-0.0,0.04,-0.08,0.07,-0.26,2.31,-4.8,4.27,0.92
+by_roi,repeat,Frontal WM,R2,3,-0.15,0.63,-1.37,1.08,-0.7,2.91,-6.41,5.0,0.9
+by_roi,repeat,Frontal WM,AI,3,0.0,0.0,-0.01,0.01,0.11,0.44,-0.74,0.97,0.88
+by_roi,repeat,Temporo-Parietal WM,R1,3,-0.04,0.02,-0.08,0.01,-2.2,1.26,-4.67,0.27,0.63
+by_roi,repeat,Temporo-Parietal WM,R2,3,-0.72,0.37,-1.45,-0.0,-3.47,1.75,-6.9,-0.05,0.58
+by_roi,repeat,Temporo-Parietal WM,AI,3,-0.0,0.0,-0.0,0.0,-0.08,0.13,-0.34,0.18,0.95
+by_roi,repeat,Occipital-Parietal WM,R1,3,-0.05,0.01,-0.08,-0.02,-2.74,0.74,-4.19,-1.28,0.58
+by_roi,repeat,Occipital-Parietal WM,R2,3,-1.05,0.3,-1.64,-0.45,-4.96,1.39,-7.67,-2.24,0.42
+by_roi,repeat,Occipital-Parietal WM,AI,3,0.0,0.0,-0.0,0.0,0.02,0.1,-0.17,0.21,0.99
+by_roi,repeat,Cerebral WM,R1,3,-0.03,0.03,-0.08,0.03,-1.42,1.41,-4.18,1.33,0.93
+by_roi,repeat,Cerebral WM,R2,3,-0.59,0.43,-1.43,0.25,-2.75,1.98,-6.63,1.13,0.77
+by_roi,repeat,Cerebral WM,AI,3,0.0,0.0,-0.0,0.0,0.01,0.11,-0.21,0.23,0.97
+by_roi,repeat,Cerebral GM,R1,3,-0.03,0.01,-0.05,-0.01,-2.86,0.83,-4.5,-1.23,-0.02
+by_roi,repeat,Cerebral GM,R2,3,-0.51,0.35,-1.2,0.18,-3.51,2.42,-8.24,1.23,-0.17
+by_roi,repeat,Cerebral GM,AI,3,0.0,0.0,-0.0,0.0,0.0,0.13,-0.24,0.25,0.95
+by_roi,repeat,Thalamus,R1,3,-0.05,0.04,-0.13,0.04,-3.68,3.26,-10.07,2.72,0.52
+by_roi,repeat,Thalamus,R2,3,-0.69,0.56,-1.79,0.41,-4.15,3.46,-10.92,2.63,0.32
+by_roi,repeat,Thalamus,AI,3,-0.0,0.01,-0.01,0.01,-0.31,0.53,-1.35,0.73,0.29
+by_roi,repeat,Caudate,R1,3,-0.05,0.03,-0.11,0.02,-4.37,3.3,-10.85,2.1,0.8
+by_roi,repeat,Caudate,R2,3,-0.58,0.34,-1.24,0.09,-3.83,2.48,-8.68,1.02,0.89
+by_roi,repeat,Caudate,AI,3,0.0,0.0,-0.0,0.0,0.07,0.12,-0.17,0.31,0.96
+by_roi,reposition,CC,R1,2,0.02,0.03,-0.03,0.07,0.96,1.44,-1.86,3.78,
+by_roi,reposition,CC,R2,2,-0.03,0.01,-0.06,-0.0,-0.16,0.06,-0.28,-0.04,
+by_roi,reposition,CC,AI,2,-0.0,0.01,-0.02,0.01,-0.41,0.57,-1.53,0.72,
+by_roi,reposition,Cerebellar WM,R1,2,0.02,0.06,-0.11,0.14,0.94,3.84,-6.6,8.47,
+by_roi,reposition,Cerebellar WM,R2,2,0.09,0.34,-0.58,0.77,0.4,1.73,-2.99,3.79,
+by_roi,reposition,Cerebellar WM,AI,2,-0.0,0.02,-0.04,0.03,-0.47,1.89,-4.17,3.22,
+by_roi,reposition,Frontal WM,R1,2,0.02,0.01,-0.01,0.04,0.95,0.83,-0.69,2.58,
+by_roi,reposition,Frontal WM,R2,2,-0.14,0.39,-0.91,0.62,-0.64,1.88,-4.33,3.05,
+by_roi,reposition,Frontal WM,AI,2,-0.0,0.0,-0.01,0.01,-0.05,0.29,-0.62,0.51,
+by_roi,reposition,Temporo-Parietal WM,R1,2,0.01,0.01,-0.02,0.03,0.47,0.73,-0.96,1.9,
+by_roi,reposition,Temporo-Parietal WM,R2,2,-0.02,0.12,-0.25,0.21,-0.08,0.58,-1.21,1.05,
+by_roi,reposition,Temporo-Parietal WM,AI,2,-0.0,0.01,-0.02,0.01,-0.48,0.57,-1.59,0.63,
+by_roi,reposition,Occipital-Parietal WM,R1,2,-0.01,0.03,-0.08,0.06,-0.57,2.07,-4.61,3.48,
+by_roi,reposition,Occipital-Parietal WM,R2,2,-0.0,0.37,-0.74,0.73,-0.05,1.84,-3.66,3.56,
+by_roi,reposition,Occipital-Parietal WM,AI,2,-0.01,0.01,-0.02,0.01,-0.56,0.7,-1.93,0.81,
+by_roi,reposition,Cerebral WM,R1,2,0.01,0.05,-0.09,0.12,0.69,2.99,-5.17,6.55,
+by_roi,reposition,Cerebral WM,R2,2,-0.1,0.13,-0.35,0.15,-0.5,0.64,-1.76,0.76,
+by_roi,reposition,Cerebral WM,AI,2,-0.0,0.01,-0.02,0.01,-0.48,0.71,-1.88,0.92,
+by_roi,reposition,Cerebral GM,R1,2,-0.01,0.02,-0.04,0.03,-0.79,1.59,-3.91,2.32,
+by_roi,reposition,Cerebral GM,R2,2,-0.45,0.06,-0.56,-0.34,-3.09,0.61,-4.28,-1.9,
+by_roi,reposition,Cerebral GM,AI,2,-0.0,0.01,-0.01,0.01,-0.12,0.67,-1.43,1.19,
+by_roi,reposition,Thalamus,R1,2,0.01,0.03,-0.05,0.07,0.48,2.28,-3.99,4.94,
+by_roi,reposition,Thalamus,R2,2,0.11,0.17,-0.23,0.45,0.71,1.08,-1.41,2.82,
+by_roi,reposition,Thalamus,AI,2,-0.01,0.0,-0.01,-0.0,-0.51,0.17,-0.85,-0.16,
+by_roi,reposition,Caudate,R1,2,0.01,0.01,-0.01,0.03,0.99,0.77,-0.51,2.5,
+by_roi,reposition,Caudate,R2,2,-0.45,0.35,-1.13,0.23,-2.75,1.86,-6.39,0.9,
+by_roi,reposition,Caudate,AI,2,0.0,0.0,-0.0,0.01,0.27,0.29,-0.3,0.84,

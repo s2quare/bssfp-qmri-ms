@@ -1,0 +1,4 @@
+Metric,N subjects,N observations,Fixed effects,Random effects,RRMS–HC β (95% CI),Group effect p,ROI effect p,Group × ROI p,Age effect p,Sex effect p
+R1,26,416,group × ROI + age + sex,subject intercept,-0.16 (-0.21 to -0.10),<0.001,<0.001,<0.001,0.563,0.839
+R2,26,416,group × ROI + age + sex,subject intercept,-2.84 (-3.61 to -2.06),<0.001,<0.001,<0.001,0.705,0.822
+AI,26,416,group × ROI + age + sex,subject intercept,-0.00 (-0.01 to 0.00),0.450,<0.001,0.747,0.591,0.179

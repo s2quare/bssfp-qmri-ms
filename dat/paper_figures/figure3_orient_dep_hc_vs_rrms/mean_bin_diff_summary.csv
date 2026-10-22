@@ -1,0 +1,4 @@
+Metric,mean_diff,mean_diff_sd,mean_cohens_d,mean_cohens_d_sd,mean_ci_width,all_bins_significant,min_p_value,n_bins
+R1,-0.16,0.01,-2.16,0.28,0.14,Yes,0.00,36
+R2,-2.41,0.28,-2.70,0.34,1.65,Yes,0.00,36
+AI,-0.00,0.00,-0.29,0.26,0.01,No,0.18,36

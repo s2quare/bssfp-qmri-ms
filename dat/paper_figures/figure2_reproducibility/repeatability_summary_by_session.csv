@@ -1,0 +1,7 @@
+summary_scope,session_type,metric,n_pairs,bias_native,sd_native,loa_lower_native,loa_upper_native,bias_plot_units,sd_plot_units,loa_lower_plot_units,loa_upper_plot_units,"ICC(A,1)"
+by_session,repeat,R1,27,-0.03,0.03,-0.09,0.03,-2.04,2.32,-6.59,2.5,0.99
+by_session,repeat,R2,27,-0.51,0.5,-1.5,0.48,-2.73,2.68,-7.98,2.51,0.97
+by_session,repeat,AI,27,-0.0,0.0,-0.01,0.01,-0.07,0.37,-0.78,0.65,0.98
+by_session,reposition,R1,18,0.01,0.03,-0.04,0.06,0.46,1.66,-2.8,3.71,1.0
+by_session,reposition,R2,18,-0.11,0.28,-0.65,0.43,-0.68,1.61,-3.84,2.47,0.99
+by_session,reposition,AI,18,-0.0,0.01,-0.02,0.01,-0.31,0.65,-1.58,0.96,0.93

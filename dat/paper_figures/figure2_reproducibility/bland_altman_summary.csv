@@ -1,0 +1,4 @@
+summary_scope,metric,n_pairs,bias_native,sd_native,loa_lower_native,loa_upper_native,bias_plot_units,sd_plot_units,loa_lower_plot_units,loa_upper_plot_units,"ICC(A,1)"
+pooled_metric,R1,45,-0.01,0.03,-0.08,0.05,-1.04,2.4,-5.76,3.67,0.99
+pooled_metric,R2,45,-0.35,0.47,-1.27,0.57,-1.91,2.5,-6.82,2.99,0.97
+pooled_metric,AI,45,-0.0,0.01,-0.01,0.01,-0.17,0.51,-1.16,0.82,0.96

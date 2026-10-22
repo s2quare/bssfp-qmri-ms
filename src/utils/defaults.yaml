@@ -1,0 +1,74 @@
+# Default configuration values for the project
+# This file stores constants and defaults used across scripts
+
+# Excluded subjects for RRMS analysis (subject_id: dcm_name)
+excluded_subjects:
+# image artifacts/quality or age outside of healthy control range
+  S19: "MS_05"
+  S29: "MS_15"
+  S31: "MS_17"
+  
+# Metrics of interest for qMRI analysis
+metrics_of_interest:
+  t1_pinn:
+    label: "R1"
+    order: 0
+    type: "qMRI"
+    color: "#8b4513"
+  t2_pinn:
+    label: "R2"
+    order: 1
+    type: "qMRI"
+    color: "#1f78b4"
+  ai_map.unringed:
+    label: "AI"
+    order: 2
+    type: "qMRI"
+    color: "#cd853f"
+
+
+# Processing thresholds
+fa_mask_lower: 0.5
+fa_mask_upper: 1.0
+r1_mask_wm_lower: 1.0
+r1_mask_wm_upper: 3.0
+r2_mask_wm_lower: 13.0
+r2_mask_wm_upper: 29.0
+r1_mask_gm_lower: 0.5
+r1_mask_gm_upper: 2.0
+r2_mask_gm_lower: 3.0
+r2_mask_gm_upper: 24.0
+
+# Angle binning for orientation dependence
+angle_bins_start: 0
+angle_bins_end: 92.5
+angle_bins_step: 7.5
+
+# Shared FreeSurfer ROI configuration used in paper figures
+roi_label_config:
+  order:
+    - "CC"
+    - "Cerebellar WM"
+    - "Frontal WM"
+    - "Temporo-Parietal WM"
+    - "Occipital-Parietal WM"
+    - "Cerebral WM"
+    - "Cerebral GM"
+    - "Thalamus"
+    - "Caudate"
+  wmparc_labels:
+    frontal_wm_l: [3003, 3012, 3014, 3027, 3028, 3032]
+    frontal_wm_r: [4003, 4012, 4014, 4027, 4028, 4032]
+    mid_wm_l: [3006, 3007, 3008, 3009, 3010, 3015, 3016, 3029, 3030, 3031, 3035]
+    mid_wm_r: [4006, 4007, 4008, 4009, 4010, 4015, 4016, 4029, 4030, 4031, 4035]
+    posterior_wm_l: [3005, 3011, 3013, 3021, 3025]
+    posterior_wm_r: [4005, 4011, 4013, 4021, 4025]
+    cerebellar_wm_l: [7]
+    cerebellar_wm_r: [46]
+    cerebellar_gm_l: [8]
+    cerebellar_gm_r: [47]
+    thalamus_l: [10]
+    thalamus_r: [49]
+    caudate_l: [11]
+    caudate_r: [50]
+    cc: [251, 252, 253, 254, 255]

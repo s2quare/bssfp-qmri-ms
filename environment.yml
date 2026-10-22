@@ -1,0 +1,14 @@
+name: bssfp-qmri-ms
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - joblib
+  - scikit-learn
+  - imageio
+  - nibabel
+  - pip
+  - pip:
+    - pingouin
+    - seaborn
+prefix: /home/fbirk/miniforge3/envs/bssfp-qmri-ms

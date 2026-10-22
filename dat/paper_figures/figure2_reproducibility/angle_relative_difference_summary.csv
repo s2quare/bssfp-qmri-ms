@@ -1,0 +1,7 @@
+subject,session_type,metric,n_theta_bins,mean_relative_difference_percent
+HC_7GCNPA,repeat,R1,12,0.39044127534814904
+HC_7GCNPA,repeat,R2,12,-0.27002830324953214
+HC_7GCNPA,repeat,AI,12,-0.0044466788700398925
+HC_RKWY4Y,reposition,R1,12,2.043339968625714
+HC_RKWY4Y,reposition,R2,12,-0.8487069476422535
+HC_RKWY4Y,reposition,AI,12,-0.1262311833468721
